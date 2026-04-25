@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Bio - Red Neon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app-container">
+        <h1>✨ Gerador de Bio</h1>
+        <p>Escolha o seu estilo:</p>
+
+        <div class="button-group">
+            <button onclick="gerarBio('foco')">🎯 Foco & Disciplina</button>
+            <button onclick="gerarBio('sucesso')">🚀 Sucesso & Progresso</button>
+            <button onclick="gerarBio('reflexao')">🧠 Reflexão</button>
+        </div>
+
+        <div class="output-area">
+            <textarea id="bio-output" readonly placeholder="Sua bio aparecerá aqui..."></textarea>
+        </div>
+
+        <button class="btn-copy" onclick="copiarBio()">Copiar Bio</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
